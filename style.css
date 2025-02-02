@@ -1,0 +1,65 @@
+body {
+    background: linear-gradient(135deg, green, purple);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.caixaPesquisa{
+    margin-top: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#pesquisa {
+    text-align: center;
+    width: 80vw;
+    max-width: 500px;
+    padding: 8px;
+    border-style: none;
+    border-radius: 10px; 
+    outline: none;
+    transition: 0.2s;
+    &:focus{
+        font-size: 1.2rem;
+        
+    }
+}
+
+.botao{
+    background-image: radial-gradient(circle, purple, green, white);
+    border: none;
+    border-radius: 100%;
+    font-size: 1.2rem;
+    color: white;
+    width: 50px;
+    height: 50px;
+    margin: auto 10px;
+    cursor: pointer;
+    transition: 0.4s;
+    &:hover{
+        transform: rotate(720deg) scale(1.2);
+    }
+}
+
+#lista{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 10px; /* Espaçamento entre os itens */
+    text-align: center;
+    color: white;
+    border-radius: 25px;
+    margin: 50px 10%;
+    background-color: rgba(0, 0, 0, 0.25);
+    font-size: 1.5rem;
+}
+
+
+@media (max-width: 500px) {
+    #lista{
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+}
+
+
+
+    

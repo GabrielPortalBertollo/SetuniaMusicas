@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Setunia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="caixaPesquisa">
+    <button class="botao" onclick="restaurarLista()">&#8617;</button>
+    <input type="text" placeholder="Procurar" id="pesquisa" onkeyup="filtrarMusicas()" onchange="filtrarMusicas()">
+    <button class="botao" onclick="musicaAleatoria()">?</button>
+</div>
+<div id="lista">
+
+</div>
+
+    <script src="index.js"></script>
+</body>
+</html>
