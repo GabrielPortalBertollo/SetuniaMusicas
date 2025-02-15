@@ -4,7 +4,7 @@ body {
     background-attachment: fixed;
 }
 button{
-    cursor: url(imagens/SetuniaCursor.png)15 15, auto;
+    cursor: url(imagens/setuniCursor.png)0 35, auto;
 }
 .caixaPesquisa{
     margin-top: 25px;
