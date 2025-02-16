@@ -63,8 +63,9 @@ let listaCarregada=0;//0=home, 1=Favoritos
             } else{//adicione na lista de favoritos
                 adicionarFavorito(musica);
             }
-            botao.classList.toggle("botaoMusicaFavoritada")
             atualizarIconeFavoritos(verificarNosFavoritos(musica), idIconeFavoritos);
+            botao.classList.toggle("botaoMusicaFavoritada")
+            
         }
 
         function verificarNosFavoritos(musica){

@@ -2,6 +2,7 @@ body {
     background: linear-gradient(135deg, green, purple);
     background-repeat: no-repeat;
     background-attachment: fixed;
+    margin: 0;
 }
 button{
     cursor: url(imagens/setuniCursor.png)0 35, auto;
@@ -74,11 +75,15 @@ button{
     border-radius: 100%;
     padding: 4px;
     border: none;
+    min-width: 30px;
     width: 30px;
     height: 30px;
     &:hover{
         transform: scale(1.2);
     }
+    }
+    p{
+        margin: 0.75em 0;
     }
 }
 
@@ -94,7 +99,7 @@ button{
     height: 100%;
 }
 .botaoFavoritos{
-    margin-right: 3px;
+    margin-right: 5px;
     margin-left: 2px;
 }
 .iconeFavoritos{
@@ -141,7 +146,8 @@ width: 50vw;
         width: 35vw;
         }
     #lista{
-        width: 90%;
+        width: 95%;
+        margin: 50px 2.5% 80px;
     }
 
 }
