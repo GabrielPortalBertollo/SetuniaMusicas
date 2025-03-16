@@ -3,6 +3,7 @@ A MAIOR SAUDADE
 a noite
 A Thousand Miles
 a thousand years
+Accidentally in Love
 Admiravel Chip Novo
 AFRICA
 after dark
@@ -19,6 +20,7 @@ Angel With A Shotgun
 ANIMA
 aquela musica do filme do deadpool
 aquela musica dos veados
+around the world
 As It Was
 As the World Caves In
 ate que durou
@@ -32,7 +34,9 @@ BadName
 baka mitai
 balao magico
 Believer
+bem vindo ao bostil
 best of you
+biel quer dar
 Big in Japan
 Big Iron
 Birds Of A Feather
@@ -70,6 +74,7 @@ Carrie
 Castle of Glass
 Catch You Catch Me
 cavaleiros do zodiaco
+Ce Que Sabe,JP
 Centimeter
 Centuries
 ceu azul
@@ -100,6 +105,7 @@ Deixa Acontecer
 deja vu
 demons
 depois
+Descer Pra BC
 Descobridor dos Sete Mares
 Despacito
 Die For You
@@ -270,6 +276,7 @@ O Psicopata
 O segundo sol
 ochame kidou
 oddloop
+Oh Setunia
 oitavo andar
 orange
 Ouvi Dizer
@@ -309,6 +316,7 @@ Queen
 Racing Into The Night
 Radioactive
 Ragatanga
+Rap do Homem Macaco
 rap god
 razoes e emocoes
 reason
@@ -331,6 +339,7 @@ segredos
 September
 Set Fire To The Rain
 Setunia da pisadinha
+Setunia toma pressao
 setutris
 Seven Nation Army
 Shape Of You
@@ -376,6 +385,7 @@ The Disappearance of Hatsune Miku
 The Emptiness Machine
 The Final Countdown
 The fox
+The Kids Arent Alright
 the kill
 The Last Stand
 The Man Who Sold the World
@@ -413,18 +423,22 @@ WE GOTTA POWER
 Welcome to the Black Parade
 What I've Done
 what is love
+Whats Up
 Winter Wonderland
 Witch Doctor
 Wonderwall
 world is mine
 world.execute(me)
 Writing on the Wall
+YMCA
 you are my sunshine
 You Spin Me Round
 You're Gonna Go Far, Kid
 you've got a friend in me
 Young Girl A
 Your Reality
+yuri morena
 Zap Zum
 Zen Zen Zense
 zombie
+
