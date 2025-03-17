@@ -3,9 +3,10 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     margin: 0;
+    text-align: center;
 }
 button{
-    cursor: url(imagens/setuniCursor.png)0 35, auto;
+    cursor: url(assets/imagens/setuniCursor.png)0 35, auto;
 }
 .caixaPesquisa{
     margin-top: 25px;
@@ -43,14 +44,60 @@ button{
     }
 }
 
-#tituloFavoritos{
+
+#caixaNovidades{
+    text-align: center;
+}
+#tituloNovidades{
+    color: gold;
+    text-shadow: 0 0 15px rgba(255, 215, 0, 0.65), 0 0 30px rgba(255, 215, 0, 0.45);
+}
+#listaNovidades{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 10px; /* Espaçamento entre os itens */
+    color: white;
+    border-radius: 25px;
+    margin: 50px 10% 80px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: #ffd700 solid 1px;
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.65), 0 0 30px rgba(255, 215, 0, 0.45);
+    font-size: 1.5rem;
+}
+.caixaMusicaNovas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    button{
+    border-radius: 100%;
+    padding: 4px;
+    border: none;
+    min-width: 30px;
+    width: 30px;
+    height: 30px;
+    &:hover{
+        transform: scale(1.2);
+    }
+    }
+    p{
+        text-shadow: 0 0 5px #ffffff;
+        margin: 0.75em 0;
+    }
+    button:hover{
+        box-shadow: 0 0 5px #ffd700;
+    }
+}
+
+
+
+#titulo{
     color: white;
 }
 #alertaFavoritos{
     color: red;
 }
 .textoFavoritos{
-    text-align: center;
     display: none;
 }
 
@@ -59,7 +106,6 @@ button{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
             gap: 10px; /* Espaçamento entre os itens */
-    text-align: center;
     color: white;
     border-radius: 25px;
     margin: 50px 10% 80px;
@@ -133,7 +179,7 @@ height: 100%;
 }
 
 @media (max-width: 500px) {
-    #lista{
+    #lista,#listaNovidades{
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 #pesquisa {
@@ -145,7 +191,7 @@ width: 50vw;
     #pesquisa {
         width: 35vw;
         }
-    #lista{
+    #lista,#listaNovidades{
         width: 95%;
         margin: 50px 2.5% 80px;
     }

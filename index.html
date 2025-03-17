@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Setunia</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="imagens/SetuniIcon.webp" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/imagens/SetuniIcon.webp" type="image/x-icon">
 </head>
 <body>
     <div class="caixaPesquisa">
@@ -13,12 +13,13 @@
     <input type="text" placeholder="Procurar" id="pesquisa" onkeyup="filtrarMusicas()" onchange="filtrarMusicas()">
     <button class="botao" onclick="musicaAleatoria()">?</button>
 </div>
-<h1 id="tituloFavoritos" class="textoFavoritos">Favoritos</h1>
+<div id="caixaNovidades"></div>
+<h1 id="titulo" class="centralizarTextos">Principal</h1>
 <p id="alertaFavoritos" class="textoFavoritos">Evite limpar os dados de navegação (deste site pelo menos) para manter seus favoritos salvos.</p>
 <div id="lista">
 
 </div>
-<button id="botaoTrocarHomeEFavoritos" onclick="trocarTela()"><img src="imagens/iconeCoracao.png" alt="" id="IconeHomeEFavoritos"></button>
+<button id="botaoTrocarHomeEFavoritos" onclick="trocarTela()"><img src="assets/imagens/iconeCoracao.png" alt="" id="IconeHomeEFavoritos"></button>
     <script src="index.js"></script>
 </body>
 </html>
