@@ -37,11 +37,14 @@ let listaNovidades=[];
             if(lista.length == 0){
                 document.getElementById('lista').innerHTML = `<h2>Nenhuma música encontrada.</h2>`;
             }  else{
-            document.getElementById('lista').innerHTML = lista.map(song => `<div class="caixaMusica">
-                <button class="botaoFavoritos ${verificarNosFavoritos(song) ? 'botaoMusicaFavoritada' : ''}" onclick="clicarFavoritos('${song}', '${idIconeFavoritos}', this)"><img src="${verificarNosFavoritos(song) ? "assets/imagens/setuniHeart.png" : "assets/imagens/iconeCoracao.png"}" alt="iconeCoração" class="iconeFavoritos" id="${idIconeFavoritos++}"></button>
+            document.getElementById('lista').innerHTML = lista.map(song => {
+                const songFormatado = song.replace(/'/g, "\\'");//transforma ' do nome da musica em ' mais literal, sem poder de converter tudo para string                
+                return `<div class="caixaMusica">
+                <button class="botaoFavoritos ${verificarNosFavoritos(song) ? 'botaoMusicaFavoritada' : ''}" onclick="clicarFavoritos('${songFormatado}', '${idIconeFavoritos}', this)"><img src="${verificarNosFavoritos(song) ? "assets/imagens/setuniHeart.png" : "assets/imagens/iconeCoracao.png"}" alt="iconeCoração" class="iconeFavoritos" id="${idIconeFavoritos++}"></button>
                 <p>${song}</p>
-                <button class="botaoCopiar" onclick="copiar('${song}')"><img src="assets/imagens/iconeCopiar.png" alt="Copiar" class="iconeCopiar"></button>
-                </div>`).join('');
+                <button class="botaoCopiar" onclick="copiar('${songFormatado}')"><img src="assets/imagens/iconeCopiar.png" alt="Copiar" class="iconeCopiar"></button>
+                </div>`}).join('');
+            
             }
         }
 
